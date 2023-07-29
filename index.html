@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>season</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">SEASONS</h1>
+        <ul class="nav-links">
+            <li><a href="index.html" target="_blank">Home</a></li>
+            <li><a href="https://akashtripathi12.github.io/portfolio" target="_blank">About</a></li>
+            <li><a href="https://www.linkedin.com/in/akash-tripathi-433171253" target="_blank">Contact Me</a></li>
+        </ul>
+        <img src="menu.png" class="menu-btn" alt="">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colorful Seasons</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="index1.html" target="_blank" class="ctn">EXPLORE</a>
+        </div>
+    </header>
+
+    <section class="seasons">
+        <div class="title">
+            <h1>Different Seasons</h1>
+            <div class="line"></div> 
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="img1.png" alt="">
+                <h4>Autumn</h4>
+                <p>Autumn is a little unique compared to the other seasons because it has quite more diverse environmental patterns than winter or summer. At this time of year, nature is so pure and lovely. The atmosphere seems really calming during this time. People adore going on tours and family outings.</p>
+                <a href="https://en.wikipedia.org/wiki/Autumn" target="_blank" class="ctn">Read More</a>
+            </div>
+            <div class="col">
+                <img src="img2.png" alt="">
+                <h4>Winter</h4>
+                <p>Winter is one of the few seasons that offers an immense sense of magic and wonder. From the celebration of the Christmas holiday, complete with sharing gifts and continuing traditions with loved ones to the cozy feel of gathering around the fireplace to make s'mores or just hunkering down on the couch to binge-watch endless holiday movies, there’s no other season quite like the winter.</p>
+                <a href="https://en.wikipedia.org/wiki/Winter" target="_blank" class="ctn">Read More</a>
+            </div>    
+        </div>
+        <div class="row">
+                <div class="col">
+                    <img src="img3.png" alt="">
+                    <h4>Spring</h4>
+                    <p>Spring is truly the season of renewal. After a cold, harsh winter, nothing lifts our spirits like seeing early spring flowers popping up around us. As the weather warms and days get longer, our whole perspective shifts.</p>
+                    <p>"Spring won't let me stay in this house any longer! I must get out and breathe the air deeply again."</p>
+                    <a href="https://en.wikipedia.org/wiki/Spring" target="_blank" class="ctn">Read More</a>
+                </div>
+                <div class="col">
+                    <img src="img4.png" alt="">
+                    <h4>Summer</h4>
+                    <p>Summer is the Season of bright sunlight. After the spring, the earth welcomes a warm seaason and enjoy the many fresh fruits and vegetables like mango, watermelon, cucumber, etc.Sweet, sweet burn of sun and summer wind, and you, my friend, my new fun thing, my summer fling.</p>
+                    <p>"In the summertime, when the weather is hot, you can stretch right up and touch the sky."</p>
+                    <a href="https://en.wikipedia.org/wiki/Summer" target="_blank" class="ctn">Read More</a>
+                </div>
+        </div>
+    </section>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const navlinks = document.querySelector('.nav-links');
+
+        menuBtn.addEventListener('click' , () => {
+                navlinks.classList.toggle('mobile-menu')
+        });
+    </script>
+</body>
+</html>
